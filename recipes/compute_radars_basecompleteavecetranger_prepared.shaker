@@ -1,6 +1,24 @@
 {
   "steps": [
     {
+      "type": "DateParser",
+      "params": {
+        "lang": "auto",
+        "timezone_id": "UTC",
+        "formats": [
+          "yyyy-MM-dd"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "columns": [
+          "date"
+        ]
+      },
+      "metaType": "PROCESSOR",
+      "preview": false,
+      "disabled": false,
+      "alwaysShowComment": false
+    },
+    {
       "type": "ColumnSplitter",
       "params": {
         "inCol": "geo_point_2d contrevenant",
@@ -201,7 +219,7 @@
         ]
       },
       "metaType": "PROCESSOR",
-      "preview": true,
+      "preview": false,
       "disabled": false,
       "alwaysShowComment": false
     }
