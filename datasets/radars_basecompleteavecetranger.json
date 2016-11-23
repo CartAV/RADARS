@@ -2,14 +2,14 @@
   "type": "Filesystem",
   "params": {
     "connection": "filesystem_root",
-    "path": "/data/radars/radars_basecompleteavecetranger.csv"
+    "path": "/data/radars/radars_basecompleteavecetranger.norm.csv"
   },
   "managed": false,
   "formatType": "csv",
   "formatParams": {
     "style": "excel",
-    "charset": "iso-8859-15",
-    "separator": ",",
+    "charset": "utf8",
+    "separator": ";",
     "quoteChar": "\"",
     "escapeChar": "\\",
     "dateSerializationFormat": "ISO",
@@ -26,7 +26,7 @@
     "skipRowsBeforeHeader": 0,
     "parseHeaderRow": true,
     "skipRowsAfterHeader": 0,
-    "probableNumberOfRecords": 27,
+    "probableNumberOfRecords": 37,
     "normalizeBooleans": false,
     "normalizeDoubles": true,
     "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
@@ -38,6 +38,12 @@
   "schema": {
     "userModified": true,
     "columns": [
+      {
+        "name": "date",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
       {
         "name": "Code_Equipement",
         "type": "string",
@@ -99,13 +105,13 @@
         "maxLength": -1
       },
       {
-        "name": "Libellé_Classe_infraction",
+        "name": "Libell__Classe_infraction",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
       {
-        "name": "Libell__Nature_infraction",
+        "name": "Libellé_Nature_infraction",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
@@ -136,12 +142,6 @@
       },
       {
         "name": "Voie_Infraction",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
-      },
-      {
-        "name": "Date_de_l_infraction",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
@@ -199,6 +199,66 @@
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
+      },
+      {
+        "name": "jour_semaine",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "dépassement",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "Commune contrevenant",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "Département contrevenant",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "Code Région contrevenant",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "Code Département contrevenant",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "Code Canton contrevenant",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "Code Arrondissement contrevenant",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "Région contrevenant",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "geo_point_2d contrevenant",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
       }
     ]
   },
@@ -215,6 +275,15 @@
   "flowOptions": {
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoinefa",
+      "displayName": "Fabien Antoine",
+      "email": "fabien.antoine@interieur.gouv.fr"
+    },
+    "lastModifiedOn": 1479921002234
   },
   "customMeta": {
     "kv": {}
