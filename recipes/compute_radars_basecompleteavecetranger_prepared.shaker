@@ -1,6 +1,50 @@
 {
-  "steps": [],
+  "steps": [
+    {
+      "type": "ColumnSplitter",
+      "params": {
+        "inCol": "geo_point_2d contrevenant",
+        "separator": ",",
+        "outColPrefix": "geo_point_2d contrevenant_",
+        "keepEmptyChunks": false,
+        "target": "COLUMNS",
+        "limitOutput": false,
+        "limit": 0
+      },
+      "metaType": "PROCESSOR",
+      "preview": false,
+      "disabled": false,
+      "alwaysShowComment": false
+    },
+    {
+      "type": "ColumnsSelector",
+      "params": {
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN",
+        "columns": [
+          "geo_point_2d contrevenant"
+        ]
+      },
+      "metaType": "PROCESSOR",
+      "preview": false,
+      "disabled": false,
+      "alwaysShowComment": false
+    },
+    {
+      "type": "GeoPointCreator",
+      "params": {
+        "out_column": "geo_point_2d_contrevenant",
+        "lat_column": "geo_point_2d contrevenant_1",
+        "lon_column": "geo_point_2d contrevenant_0"
+      },
+      "metaType": "PROCESSOR",
+      "preview": false,
+      "disabled": false,
+      "alwaysShowComment": false
+    }
+  ],
   "tags": [],
+  "origin": "PREPARE_RECIPE",
   "columnsSelection": {
     "mode": "ALL"
   },
@@ -24,11 +68,48 @@
     "autoRefreshSample": false,
     "_refreshTrigger": 0
   },
-  "exploreUIParams": {},
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "globalSearchQuery": "",
   "explorationFilters": [
     {
-      "type": "global_search"
+      "type": "global_search",
+      "$$hashKey": "6F0"
+    },
+    {
+      "column": "geo_point_2d_contrevenant",
+      "type": "columnFilter",
+      "currentMode": "FACET",
+      "active": true,
+      "facet": {
+        "type": "facet",
+        "column": "geo_point_2d_contrevenant",
+        "columnType": "ALPHANUM",
+        "currentMode": "ALPHANUM",
+        "sort": "count",
+        "selectedValues": {}
+      },
+      "alphanumFilter": {
+        "type": "alphanum",
+        "column": "geo_point_2d_contrevenant",
+        "values": [],
+        "params": {
+          "mode": "full_string",
+          "normalization": "exact"
+        }
+      },
+      "validityFilter": {
+        "type": "validity",
+        "column": "geo_point_2d_contrevenant",
+        "params": {
+          "type": "GeoPoint",
+          "ok": true,
+          "nok": false,
+          "empty": false
+        }
+      },
+      "$$hashKey": "94J"
     }
   ],
   "previewMode": "ALL_ROWS",
