@@ -890,10 +890,11 @@
   "sampling": {
     "extractBeforePrepare": true,
     "selection": {
-      "samplingMethod": "HEAD_SEQUENTIAL",
+      "samplingMethod": "COLUMN_BASED",
       "partitionSelectionMethod": "ALL",
       "maxRecords": 100000,
-      "targetRatio": 0.02
+      "targetRatio": 0.02,
+      "column": "Code_Equipement"
     },
     "instanceIdRefresher": 0
   },
