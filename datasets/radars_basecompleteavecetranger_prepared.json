@@ -256,9 +256,20 @@
         "maxLength": -1
       },
       {
-        "name": "geo_point_2d contrevenant",
+        "name": "geo_point_2d contrevenant_0",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "geo_point_2d contrevenant_1",
+        "type": "double",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "geo_point_2d_contrevenant",
         "type": "string",
-        "meaning": "GeoPoint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       }
@@ -277,6 +288,15 @@
   "flowOptions": {
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "antoinefa",
+      "displayName": "Fabien Antoine",
+      "email": "fabien.antoine@interieur.gouv.fr"
+    },
+    "lastModifiedOn": 1479921357111
   },
   "customMeta": {
     "kv": {}
