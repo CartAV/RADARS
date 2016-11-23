@@ -41,6 +41,169 @@
       "preview": false,
       "disabled": false,
       "alwaysShowComment": false
+    },
+    {
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "normalization": "EXACT",
+        "matching": "FULL_STRING",
+        "stopAfterFirstMatch": false,
+        "mapping": [
+          {
+            "from": "LAND ROVER",
+            "to": "LANDROVER"
+          },
+          {
+            "from": "MERCEDES BENZ",
+            "to": "MERCEDES-BENZ"
+          },
+          {
+            "from": "MERCEDES-BENZ (D)",
+            "to": "MERCEDES-BENZ"
+          },
+          {
+            "from": "MERCEDES-BENZ (E)",
+            "to": "MERCEDES-BENZ"
+          },
+          {
+            "from": "RENAULT/IZOTERMY-TIM",
+            "to": "RENAULT/IZOTERMY TIM"
+          },
+          {
+            "from": "VOLKSWAGEN-VW",
+            "to": "VOLKSWAGEN,VW"
+          },
+          {
+            "from": "VOLKSWAGEN, VW",
+            "to": "VOLKSWAGEN,VW"
+          },
+          {
+            "from": "Fiat",
+            "to": "FIAT"
+          },
+          {
+            "from": "Lancia",
+            "to": "LANCIA"
+          },
+          {
+            "from": "Hyundai",
+            "to": "HYUNDAI"
+          },
+          {
+            "from": "Mercedes-AMG",
+            "to": "MERCEDES-AMG"
+          },
+          {
+            "from": "Mercedes-Benz",
+            "to": "MERCEDES-BENZ"
+          },
+          {
+            "from": "Skoda",
+            "to": "SKODA"
+          },
+          {
+            "from": "Ferrari",
+            "to": "FERRARI"
+          },
+          {
+            "from": "Audi",
+            "to": "AUDI"
+          },
+          {
+            "from": "Citroen",
+            "to": "CITROEN"
+          },
+          {
+            "from": "Bayer.Mot.Werke-BMW",
+            "to": "BAYER.MOT.WERKE-BMW"
+          },
+          {
+            "from": "Bentley",
+            "to": "BENTLEY"
+          },
+          {
+            "from": "Jeep",
+            "to": "JEEP"
+          },
+          {
+            "from": "Honda",
+            "to": "HONDA"
+          },
+          {
+            "from": "Volkswagen, VW",
+            "to": "VOLKSWAGEN,VW"
+          },
+          {
+            "from": "Aston Martin",
+            "to": "ASTON MARTIN"
+          },
+          {
+            "from": "Kia",
+            "to": "KIA"
+          },
+          {
+            "from": "Opel",
+            "to": "OPEL"
+          },
+          {
+            "from": "Ford",
+            "to": "FORD"
+          },
+          {
+            "from": "Porsche",
+            "to": "PORSCHE"
+          },
+          {
+            "from": "Ssangyong",
+            "to": "SSANGYONG"
+          },
+          {
+            "from": "Daimlerchrysler (D)",
+            "to": "DAIMLERCHRYSLER (D)"
+          },
+          {
+            "from": "Volvo",
+            "to": "VOLVO"
+          },
+          {
+            "from": "Dodge",
+            "to": "DODGE"
+          },
+          {
+            "from": "Jaguar",
+            "to": "JAGUAR"
+          },
+          {
+            "from": "smart",
+            "to": "SMART"
+          },
+          {
+            "from": "Nissan",
+            "to": "NISSAN"
+          },
+          {
+            "from": "Chevrolet",
+            "to": "CHEVROLET"
+          },
+          {
+            "from": "Mazda",
+            "to": "MAZDA"
+          },
+          {
+            "from": "Jaguar Land Rover Limited",
+            "to": "JAGUAR LAND ROVER LIMITED"
+          }
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "columns": [
+          "Marque"
+        ]
+      },
+      "metaType": "PROCESSOR",
+      "preview": true,
+      "disabled": false,
+      "alwaysShowComment": false
     }
   ],
   "tags": [],
@@ -58,11 +221,11 @@
     "selection": {
       "samplingMethod": "HEAD_SEQUENTIAL",
       "partitionSelectionMethod": "ALL",
-      "maxRecords": 10000,
+      "maxRecords": 100000,
       "targetRatio": 0.02
     },
     "autoRefreshSample": false,
-    "_refreshTrigger": 0
+    "_refreshTrigger": 1
   },
   "vizSampling": {
     "autoRefreshSample": false,
