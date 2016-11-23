@@ -256,7 +256,7 @@
       },
       {
         "name": "geo_point_2d contrevenant",
-        "type": "string",
+        "type": "geopoint",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       }
@@ -277,13 +277,13 @@
     "crossProjectBuildBehavior": "DEFAULT"
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine",
       "email": "fabien.antoine@interieur.gouv.fr"
     },
-    "lastModifiedOn": 1479921002234
+    "lastModifiedOn": 1479921045223
   },
   "customMeta": {
     "kv": {}
