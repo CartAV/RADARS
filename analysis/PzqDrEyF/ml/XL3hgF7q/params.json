@@ -16,7 +16,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "Week_End_Infraction",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
@@ -36,7 +35,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "Double_sens",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
@@ -56,7 +54,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "Région contrevenant",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
@@ -76,7 +73,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "Année_du_permis_de_conduire",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -96,7 +92,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "Code Département contrevenant",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
@@ -116,7 +111,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "NONE",
-        "name": "geo_point_2d contrevenant_1",
         "role": "REJECT",
         "type": "CATEGORY",
         "state": {
@@ -137,7 +131,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "Nb_ACO_envoyés",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -157,7 +150,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "Libell__Classe_infraction",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
@@ -177,7 +169,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "Code Canton contrevenant",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -197,7 +188,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "date",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -217,7 +207,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "Vitesse_Limite_Autorisée",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -237,7 +226,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "dépassement",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -257,7 +245,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "geo_point_2d_contrevenant",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
@@ -277,7 +264,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "geo_point_2d contrevenant_0",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -297,7 +283,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "Age_Contrevenant",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -317,7 +302,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "Département contrevenant",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
@@ -337,7 +321,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "NONE",
-        "name": "Pays_contrevenant",
         "role": "REJECT",
         "type": "CATEGORY",
         "state": {
@@ -358,7 +341,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "Marque",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
@@ -378,7 +360,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "Libellé_Genre",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
@@ -398,7 +379,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "Vitesse_Relevée",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -418,7 +398,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "Commune contrevenant",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
@@ -438,7 +417,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "Code Région contrevenant",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -458,7 +436,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "jour_semaine",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -478,7 +455,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "NONE",
-        "name": "Ville_Infraction",
         "role": "REJECT",
         "type": "CATEGORY",
         "state": {
@@ -499,7 +475,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "Sous_famille_d_ET",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
@@ -519,7 +494,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "Code_Equipement",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -539,7 +513,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "Montant_Minor_",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -559,7 +532,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "Code Arrondissement contrevenant",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -579,7 +551,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "Mois_de_l_infraction",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -599,7 +570,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "NONE",
-        "name": "Code_Insee_Infraction",
         "role": "REJECT",
         "type": "CATEGORY",
         "state": {
@@ -620,7 +590,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "Année_Naissance_contrevenant",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -640,7 +609,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "Département_Equipement",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
@@ -660,7 +628,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "Num_Dossier",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -680,7 +647,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "Code_Insee_contrevenant",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
@@ -700,7 +666,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "Sexe_contrevenant",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
@@ -743,7 +708,6 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "name": "Nombre_de_points",
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
@@ -763,7 +727,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "Ville_contrevenant",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
@@ -783,7 +746,6 @@
         "max_nb_categories": 100,
         "max_cat_safety": 200,
         "dummy_drop": "AUTO",
-        "name": "Voie_Infraction",
         "role": "INPUT",
         "type": "CATEGORY",
         "state": {
