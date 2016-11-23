@@ -1,7 +1,48 @@
 {
   "inputDatasetSmartName": "radars_basecompleteavecetranger_prepared",
   "script": {
-    "steps": [],
+    "steps": [
+      {
+        "type": "FilterOnValue",
+        "params": {
+          "values": [
+            "FRANCE"
+          ],
+          "matchingMode": "FULL_STRING",
+          "normalizationMode": "EXACT",
+          "action": "KEEP_ROW",
+          "booleanMode": "AND",
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "Pays_contrevenant"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "FilterOnValue",
+        "params": {
+          "values": [
+            "-1"
+          ],
+          "matchingMode": "FULL_STRING",
+          "normalizationMode": "EXACT",
+          "action": "REMOVE_ROW",
+          "booleanMode": "AND",
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "Age_Contrevenant"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": true,
+        "disabled": false,
+        "alwaysShowComment": false
+      }
+    ],
     "tags": [],
     "columnsSelection": {
       "mode": "ALL"
@@ -33,32 +74,34 @@
     },
     "explorationSampling": {
       "selection": {
-        "samplingMethod": "HEAD_SEQUENTIAL",
+        "samplingMethod": "RANDOM_FIXED_NB",
         "partitionSelectionMethod": "ALL",
-        "maxRecords": 10000,
+        "maxRecords": 100000,
         "targetRatio": 0.02
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 0
+      "_refreshTrigger": 2
     },
     "vizSampling": {
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
-    "globalSearchQuery": "",
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
+    "globalSearchQuery": "FRANCE",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS",
     "charts": [],
     "chartsEngine": "LINO"
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "antoinefa",
       "displayName": "Fabien Antoine"
     },
-    "lastModifiedOn": 1479922116227
+    "lastModifiedOn": 1479922307352
   },
   "creationTag": {
     "versionNumber": 0,
