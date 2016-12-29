@@ -23,51 +23,10 @@
     "disableAutomaticTriggers": false
   },
   "name": "radars",
+  "description": "Données de verbalisation extraites de l\u0027infocentre ICARE, récupérées du stage de Fanny Marty à la DSCR (nov 2016)",
   "shortDesc": "The project *radars* was created by Fabien Antoine on Nov 23rd 2016",
   "checklists": {
-    "checklists": [
-      {
-        "title": "Your new project\u0027s Todo",
-        "createdOn": 0,
-        "items": [
-          {
-            "done": true,
-            "text": "Create the project",
-            "createdOn": 1479920532914,
-            "createdBy": "antoinefa",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Set a project image (click on the color next to the project title)",
-            "createdOn": 1479920532914,
-            "createdBy": "antoinefa",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Import your [first dataset](datasets/new/)",
-            "createdOn": 1479920532914,
-            "createdBy": "antoinefa",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Invite [other users](settings/permissions/) to collaborate",
-            "createdOn": 1479920532914,
-            "createdBy": "antoinefa",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Organize your work by replacing this with a real todo",
-            "createdOn": 1479920532914,
-            "createdBy": "antoinefa",
-            "stateChangedOn": 0
-          }
-        ]
-      }
-    ]
+    "checklists": []
   },
   "tags": [],
   "projectStatus": "Sandbox"
