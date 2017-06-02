@@ -15,6 +15,16 @@
         "enabled": false,
         "distinct": false
       }
+    },
+    {
+      "index": 2,
+      "originLabel": "equipements",
+      "preFilter": {}
+    },
+    {
+      "index": 3,
+      "originLabel": "equipements_ETVM",
+      "preFilter": {}
     }
   ],
   "engineParams": {
@@ -43,11 +53,11 @@
     },
     "lowerCaseSchemaIfEngineRequiresIt": true
   },
+  "originColumnName": "original_dataset",
   "postFilter": {
     "enabled": false,
     "distinct": false
   },
-  "originColumnName": "original_dataset",
   "selectedColumns": [
     "Equipement",
     "Type",
@@ -135,7 +145,45 @@
     "Télécom\nCoordonnées GPS Logette - longitude",
     "ET double sens",
     "Sens détection visé",
-    "Sens circulation inverse"
+    "Sens circulation inverse",
+    "Type de cabine",
+    "Numéro de série",
+    "Catégorie",
+    "Marque",
+    "Modèle",
+    "Version Xsd",
+    "Date arrêté",
+    "Signataire arrêté",
+    "Date dernière réfection LEF",
+    "N° habitation",
+    "Nombre de voies",
+    "Intersection",
+    "Sens",
+    "Pays",
+    "Sas vélos",
+    "Checksum",
+    "Adresse IP ET",
+    "Etape VABF2\nDate fin réalisation",
+    "Lieu(ETVM)",
+    "Distance(ETVM)",
+    "Repère kilométrique (PE)",
+    "Nbr voies contrôlées (PE)",
+    "Nature voie (PE)",
+    "Adresse (PE)",
+    "Commune (PE)",
+    "Code INSEE (PE)",
+    "Code Postal (PE)",
+    "Numéro\ndépartement (PE)",
+    "Département (PE)",
+    "Repère kilométrique (PS)",
+    "Nbr voies contrôlées (PS)",
+    "Nature voie (PS)",
+    "Adresse (PS)",
+    "Commune (PS)",
+    "Code INSEE (PS)",
+    "Code Postal (PS)",
+    "Numéro\ndépartement (PS)",
+    "Département (PS)"
   ],
   "addOriginColumn": false,
   "mode": "UNION"
