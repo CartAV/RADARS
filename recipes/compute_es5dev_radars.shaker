@@ -10,14 +10,33 @@
     "_refreshTrigger": 0,
     "autoRefreshSample": false
   },
+  "origin": "PREPARE_RECIPE",
   "sorting": [],
   "coloring": {
     "individualColumns": [],
     "scheme": "MEANING_AND_STATUS",
     "valueColoringMode": "HASH"
   },
-  "steps": [],
-  "exploreUIParams": {},
+  "steps": [
+    {
+      "alwaysShowComment": false,
+      "preview": true,
+      "params": {
+        "renamings": [
+          {
+            "to": "departement_num",
+            "from": "Numérodépartement"
+          }
+        ]
+      },
+      "type": "ColumnRenamer",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    }
+  ],
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "previewMode": "ALL_ROWS",
   "explorationSampling": {
     "_refreshTrigger": 0,
