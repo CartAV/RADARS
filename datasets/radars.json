@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1496748639599
+    "lastModifiedOn": 1496748701093
   },
   "creationTag": {
     "versionNumber": 0,
@@ -797,6 +797,12 @@
       },
       {
         "name": "Département (PS)",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "dep",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
