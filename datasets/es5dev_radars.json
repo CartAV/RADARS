@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1496410516396
+    "lastModifiedOn": 1496747684186
   },
   "creationTag": {
     "versionNumber": 0,
@@ -38,6 +38,7 @@
     "connection": "es5-test",
     "index": "es5dev_radars",
     "type": "es5dev_radars",
+    "rawCopyColumns": "*",
     "frameSize": 10000,
     "partitioned": false
   },
