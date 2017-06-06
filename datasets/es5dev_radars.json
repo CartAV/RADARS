@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1496750164393
+    "lastModifiedOn": 1496750197454
   },
   "creationTag": {
     "versionNumber": 0,
@@ -267,7 +267,7 @@
         "maxLength": -1
       },
       {
-        "name": "Numéro\ndépartement",
+        "name": "departement_num",
         "type": "string",
         "timestampNoTzAsDate": false,
         "maxLength": -1
