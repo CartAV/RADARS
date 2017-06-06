@@ -16,6 +16,14 @@
         {
           "ref": "equipements",
           "deps": []
+        },
+        {
+          "ref": "equipements_ETF",
+          "deps": []
+        },
+        {
+          "ref": "equipements_ETVM",
+          "deps": []
         }
       ]
     }
@@ -31,11 +39,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1496748552053
+    "lastModifiedOn": 1496748591408
   },
   "creationTag": {
     "versionNumber": 0,
