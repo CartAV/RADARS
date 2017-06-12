@@ -22,6 +22,28 @@
         },
         "sql": "select * from \"equipements_etd_stacked\" limit 10",
         "expandedSql": "select * from \"equipements_etd_stacked\" limit 10"
+      },
+      {
+        "mode": "SQL",
+        "id": "BQ3WAjBkINCx",
+        "runOn": 1497260055762,
+        "runIn": 43,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "o64v8WYDjHvNz5ET",
+        "hash": "924525b26adf25bc8eabccf382f63edb",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"Numéro département\" from \"equipements_etd_stacked\" limit 10",
+        "expandedSql": "select \"Numéro département\" from \"equipements_etd_stacked\" limit 10"
       }
     ]
   }
