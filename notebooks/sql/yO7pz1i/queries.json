@@ -224,6 +224,28 @@
         },
         "sql": "select count(*) from \"equipements_etd_stacked\"",
         "expandedSql": "select count(*) from \"equipements_etd_stacked\""
+      },
+      {
+        "mode": "SQL",
+        "id": "ryg7Qjahvfnq",
+        "runOn": 1497260544421,
+        "runIn": 45,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "UXXCPIdNS6pd8ayg",
+        "hash": "02e026bec2cffff32c44b8ed591b6f37",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"equipements_etd_stacked\" where \"Numéro\ndépartement\" \u003d \u00272A\u0027\n",
+        "expandedSql": "select * from \"equipements_etd_stacked\" where \"Numéro\ndépartement\" \u003d \u00272A\u0027\n"
       }
     ]
   }
