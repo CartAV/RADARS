@@ -1,0 +1,28 @@
+{
+  "queries": {
+    "pqmsju29xul": [
+      {
+        "mode": "SQL",
+        "id": "fJPNNkOU6TUV",
+        "runOn": 1497259989539,
+        "runIn": -1,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "aV9SN8XY94ptAVzV",
+        "hash": "f950a10bdefcff5e48b657cc32031691",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select * from \"equipements_etd_stacked\" limit 10",
+        "expandedSql": "select * from \"equipements_etd_stacked\" limit 10"
+      }
+    ]
+  }
+}
