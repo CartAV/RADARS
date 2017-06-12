@@ -1,5 +1,40 @@
 {
-  "explorationFilters": [],
+  "explorationFilters": [
+    {
+      "facet": {
+        "sort": "count",
+        "columnType": "ALPHANUM",
+        "column": "departement_num",
+        "currentMode": "ALPHANUM",
+        "selectedValues": {},
+        "type": "facet"
+      },
+      "$$hashKey": "7IY",
+      "validityFilter": {
+        "column": "departement_num",
+        "params": {
+          "nok": true,
+          "empty": true,
+          "ok": true,
+          "type": "Text"
+        },
+        "type": "validity"
+      },
+      "alphanumFilter": {
+        "values": [],
+        "column": "departement_num",
+        "params": {
+          "normalization": "exact",
+          "mode": "full_string"
+        },
+        "type": "alphanum"
+      },
+      "column": "departement_num",
+      "currentMode": "FACET",
+      "active": true,
+      "type": "columnFilter"
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "analysisColumnData": {},
   "columnsSelection": {
