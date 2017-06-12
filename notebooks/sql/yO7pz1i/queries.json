@@ -88,6 +88,28 @@
         },
         "sql": "select \"Numéro\ndépartement\", count(*) from \"equipements_etd_stacked\" group by \"Numéro\ndépartement\" order desc",
         "expandedSql": "select \"Numéro\ndépartement\", count(*) from \"equipements_etd_stacked\" group by \"Numéro\ndépartement\" order desc"
+      },
+      {
+        "mode": "SQL",
+        "id": "hUxCoU47Yhlw",
+        "runOn": 1497260137339,
+        "runIn": 39,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "dbWbUsNtFoxCi7c6",
+        "hash": "234b1270e922dae7e326cc67e344516c",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select \"Numéro\ndépartement\", count(*) from \"equipements_etd_stacked\" group by \"Numéro\ndépartement\" order des",
+        "expandedSql": "select \"Numéro\ndépartement\", count(*) from \"equipements_etd_stacked\" group by \"Numéro\ndépartement\" order des"
       }
     ]
   }
