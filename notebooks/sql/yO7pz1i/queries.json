@@ -201,6 +201,30 @@
         "sql": "select * from \"equipements_etd_stacked\" where \"Numéro\ndépartement\" \u003d \u00272A\u0027\n",
         "expandedSql": "select * from \"equipements_etd_stacked\" where \"Numéro\ndépartement\" \u003d \u00272A\u0027\n"
       }
+    ],
+    "xriww1db0ha": [
+      {
+        "mode": "SQL",
+        "id": "qpltBKipmOnZ",
+        "runOn": 1497260530267,
+        "runIn": -1,
+        "runBy": "chabouisfr",
+        "connection": "postgis",
+        "state": "RUNNING",
+        "futureId": "2nYUdehHLzcFnfMP",
+        "hash": "92f110733562fc4fbbab7a95a52d99c5",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "select count(*) from \"equipements_etd_stacked\"",
+        "expandedSql": "select count(*) from \"equipements_etd_stacked\""
+      }
     ]
   }
 }
