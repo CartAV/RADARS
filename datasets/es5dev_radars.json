@@ -18,11 +18,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "chabouisfr"
     },
-    "lastModifiedOn": 1496750239337
+    "lastModifiedOn": 1497259687899
   },
   "creationTag": {
     "versionNumber": 0,
@@ -43,7 +43,7 @@
     "partitioned": false
   },
   "schema": {
-    "userModified": false,
+    "userModified": true,
     "columns": [
       {
         "name": "Equipement",
@@ -270,6 +270,7 @@
       {
         "name": "departement_num",
         "type": "string",
+        "meaning": "Text",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
