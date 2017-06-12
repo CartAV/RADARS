@@ -84,7 +84,7 @@
         "column": "Département",
         "type": "columnFilter",
         "currentMode": "FACET",
-        "active": true,
+        "active": false,
         "facet": {
           "type": "facet",
           "column": "Département",
@@ -117,7 +117,7 @@
         "column": "Code INSEE",
         "type": "columnFilter",
         "currentMode": "FACET",
-        "active": true,
+        "active": false,
         "facet": {
           "type": "facet",
           "column": "Code INSEE",
@@ -149,7 +149,7 @@
       {
         "column": "Numéro\ndépartement",
         "type": "columnFilter",
-        "currentMode": "FACET",
+        "currentMode": "SIMPLE_ALPHANUM",
         "active": true,
         "facet": {
           "type": "facet",
@@ -162,7 +162,9 @@
         "alphanumFilter": {
           "type": "alphanum",
           "column": "Numéro\ndépartement",
-          "values": [],
+          "values": [
+            "2A"
+          ],
           "params": {
             "mode": "full_string",
             "normalization": "exact"
@@ -173,6 +175,41 @@
           "column": "Numéro\ndépartement",
           "params": {
             "type": "Text",
+            "ok": true,
+            "nok": true,
+            "empty": true
+          }
+        }
+      },
+      {
+        "column": "Equipement",
+        "type": "columnFilter",
+        "currentMode": "SIMPLE_ALPHANUM",
+        "active": false,
+        "facet": {
+          "type": "facet",
+          "column": "Equipement",
+          "columnType": "NUMERICAL",
+          "currentMode": "ALPHANUM",
+          "sort": "count",
+          "selectedValues": {}
+        },
+        "alphanumFilter": {
+          "type": "alphanum",
+          "column": "Equipement",
+          "values": [
+            "7221"
+          ],
+          "params": {
+            "mode": "full_string",
+            "normalization": "exact"
+          }
+        },
+        "validityFilter": {
+          "type": "validity",
+          "column": "Equipement",
+          "params": {
+            "type": "LongMeaning",
             "ok": true,
             "nok": true,
             "empty": true
