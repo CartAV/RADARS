@@ -42,7 +42,7 @@
       {
         "column": "departement_num",
         "type": "columnFilter",
-        "currentMode": "FACET",
+        "currentMode": "SIMPLE_ALPHANUM",
         "active": true,
         "facet": {
           "type": "facet",
@@ -55,7 +55,9 @@
         "alphanumFilter": {
           "type": "alphanum",
           "column": "departement_num",
-          "values": [],
+          "values": [
+            "2A"
+          ],
           "params": {
             "mode": "full_string",
             "normalization": "exact"
