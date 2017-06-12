@@ -207,10 +207,10 @@
         "mode": "SQL",
         "id": "qpltBKipmOnZ",
         "runOn": 1497260530267,
-        "runIn": -1,
+        "runIn": 45,
         "runBy": "chabouisfr",
         "connection": "postgis",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "2nYUdehHLzcFnfMP",
         "hash": "92f110733562fc4fbbab7a95a52d99c5",
         "querySettings": {
