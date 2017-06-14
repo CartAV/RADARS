@@ -1,33 +1,110 @@
 {
+  "dashboardAuthorizations": {
+    "allAuthorized": false,
+    "authorizations": [
+      {
+        "objectRef": {
+          "objectId": "equipements_ETD_stacked",
+          "objectType": "DATASET"
+        },
+        "modes": []
+      }
+    ]
+  },
+  "exposedObjects": {
+    "objects": [
+      {
+        "type": "DATASET",
+        "localName": "equipements_ETD_stacked",
+        "rules": [
+          {
+            "targetProject": "BASESDEPRODUCTION",
+            "appearOnFlow": true
+          }
+        ]
+      }
+    ]
+  },
   "projectType": "REGULAR",
   "owner": "antoinefa",
   "permissions": [
     {
       "group": "DSCR",
-      "type": "ANALYST_READWRITE",
-      "runJob": false,
-      "downloadData": true
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": true,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false
     },
     {
       "group": "data_team",
-      "type": "ANALYST_READWRITE",
-      "runJob": false,
-      "downloadData": true
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": true,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false
     }
   ],
+  "additionalDashboardUsers": {
+    "users": []
+  },
   "tutorialProject": false,
   "settings": {
     "flowAnchorSourcesAndSinks": true,
-    "exposedComputables": [],
     "gitCommitMode": "AUTO",
-    "disableAutomaticTriggers": false
+    "disableAutomaticTriggers": false,
+    "integrations": {
+      "integrations": []
+    },
+    "flowBuildSettings": {
+      "mergeSparkPipelines": false,
+      "pruneBeforeSparkPipelines": true
+    },
+    "limitsSettings": {
+      "memSampleBytes": {
+        "soft": -1,
+        "hard": -1
+      },
+      "shakerMemTableBytes": {
+        "soft": -1,
+        "hard": -1
+      }
+    },
+    "relocationSettings": {
+      "sqlLikeRecipesInitializationMode": "RESOLVED_TABLE_REFERENCES"
+    },
+    "recipeEnginesPreferences": {
+      "forbiddenEngines": [],
+      "enginesPreferenceOrder": [],
+      "forbiddenByRecipeType": {},
+      "preferenceByRecipeType": {}
+    }
   },
   "name": "radars",
+  "projectStatus": "In use",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "grabenertr"
+    },
+    "lastModifiedOn": 1497456072925
+  },
   "description": "Données de verbalisation extraites de l\u0027infocentre ICARE, récupérées du stage de Fanny Marty à la DSCR (nov 2016)",
   "shortDesc": "The project *radars* was created by Fabien Antoine on Nov 23rd 2016",
+  "tags": [],
   "checklists": {
     "checklists": []
-  },
-  "tags": [],
-  "projectStatus": "In use"
+  }
 }
