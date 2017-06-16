@@ -10,11 +10,29 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "equipements_radar",
+          "objectType": "DATASET"
+        },
+        "modes": []
       }
     ]
   },
   "exposedObjects": {
-    "objects": []
+    "objects": [
+      {
+        "type": "DATASET",
+        "localName": "equipements_radar",
+        "rules": [
+          {
+            "targetProject": "BASESDEPRODUCTION",
+            "appearOnFlow": true
+          }
+        ]
+      }
+    ]
   },
   "projectType": "REGULAR",
   "owner": "antoinefa",
@@ -86,11 +104,11 @@
   "name": "radars",
   "projectStatus": "In use",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "grabenertr"
     },
-    "lastModifiedOn": 1497618549861
+    "lastModifiedOn": 1497618573302
   },
   "description": "Données de verbalisation extraites de l\u0027infocentre ICARE, récupérées du stage de Fanny Marty à la DSCR (nov 2016)",
   "shortDesc": "The project *radars* was created by Fabien Antoine on Nov 23rd 2016",
