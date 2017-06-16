@@ -67,6 +67,38 @@
       "type": "ColumnRenamer",
       "disabled": false,
       "metaType": "PROCESSOR"
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": false,
+      "params": {
+        "booleanMode": "AND",
+        "appliesTo": "SINGLE_COLUMN",
+        "columns": [
+          "Coordonnées GPS cabine - latitude"
+        ],
+        "action": "CLEAR_CELL",
+        "type": "DoubleMeaning"
+      },
+      "type": "FilterOnBadType",
+      "disabled": false,
+      "metaType": "PROCESSOR"
+    },
+    {
+      "alwaysShowComment": false,
+      "preview": false,
+      "params": {
+        "booleanMode": "AND",
+        "appliesTo": "SINGLE_COLUMN",
+        "columns": [
+          "Coordonnées GPS cabine - longitude"
+        ],
+        "action": "CLEAR_CELL",
+        "type": "DoubleMeaning"
+      },
+      "type": "FilterOnBadType",
+      "disabled": false,
+      "metaType": "PROCESSOR"
     }
   ],
   "exploreUIParams": {
