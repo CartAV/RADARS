@@ -55,8 +55,22 @@
       "group": "data_team",
       "admin": false,
       "readProjectContent": false,
-      "writeProjectContent": true,
+      "writeProjectContent": false,
       "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false
+    },
+    {
+      "group": "eig",
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": true,
+      "exportDatasetsData": true,
       "readDashboards": false,
       "writeDashboards": false,
       "moderateDashboards": false,
@@ -104,11 +118,11 @@
   "name": "radars",
   "projectStatus": "In use",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
-      "login": "grabenertr"
+      "login": "antoinefa"
     },
-    "lastModifiedOn": 1497618573302
+    "lastModifiedOn": 1499667209287
   },
   "description": "Données de verbalisation extraites de l\u0027infocentre ICARE, récupérées du stage de Fanny Marty à la DSCR (nov 2016)",
   "shortDesc": "The project *radars* was created by Fabien Antoine on Nov 23rd 2016",
